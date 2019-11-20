@@ -1,0 +1,84 @@
+.App {
+  display: grid;
+  grid-template: auto auto auto auto auto auto auto auto auto / auto auto auto auto auto;
+  font: NYSLFont;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+*/
+
+img {
+  width: 30px;
+  height: 30px
+}
+
+h1 {
+  grid-row: 2;
+  grid-column: 3;
+  color: #215B33;
+  border: 2px solid #215B33;
+  text-align: center;
+}
+
+h2 {
+  grid-row: 3;
+  grid-column: 3;
+  justify: center;
+  text-align: center;
+  color: #355326;
+
+}
+
+h4 {
+  grid-row: 4;
+  grid-column-start: 3;
+  grid-column-end:4;
+  justify: center;
+  text-align: center;
+  color: #5A853B;
+
+
+}
+
+.Map {
+  grid-row: 5;
+  grid-column-start:1;
+  grid-column-end: -1;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 55px;
+  padding-bottom: 50px;
+}
+
+
+
+.CaseStudy {
+  grid-row: 8;
+  grid-column-start:2;
+  grid-column-end: 5;
+  border: 2px solid purple;
+}
+
+.Popup {
+  border: 2px solid black;
+  background: green;
+  color: #5A853B;
+}
